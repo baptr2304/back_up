@@ -1,0 +1,6 @@
+color:
+https://imagecolorpicker.com/
+font, icon
+https://fonts.google.com/icons?icon.query=social
+
+https://cssgradient.io/?fbclid=IwAR38y3A3uY0npXFz8a79HwOljDaazkQchXWDbHKZ8e1ql9RnlK2GwyD373U

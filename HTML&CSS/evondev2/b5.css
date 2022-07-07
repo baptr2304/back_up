@@ -1,0 +1,34 @@
+
+.background{
+    
+    /*background-image: url(https://images.unsplash.com/photo-1647869350163-002b8cd41443?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);/*truyen duong dan, link anh: https://unsplash.com/*/
+    /*set chieu dai chieu rong moi hien thi*/
+    /* width: 100%;
+    height: 1000px; */
+
+    /*muon cho hinh nam giua*/
+   /* background-position: center;
+    /* phu het*/
+   /* background-size: cover;
+    /*dùng hình nhỏ sẽ bị lặp lại*/
+   /* background-repeat: no-repeat;
+    /*bị hiện scroll,  muốn cho ảnh đứng yên lúc này thì bgrsize cover ko con tac dung*/
+   /* background-attachment: fixed;
+    /* viết tắt (short hand)*/
+   
+    background: red url(https://images.unsplash.com/photo-1647869350163-002b8cd41443?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+     no-repeat center center / cover;
+    /* chỉ hiện thị bgr đúng với khung hình*/
+     /* width: 100%; */
+     width: 100vw;
+     height: 100vh;
+     /* viewport width, viewport height*/
+
+     /* giống à khác của vh và % 
+     cho div class là wrap bọc lại background
+     100% của bgr thi width ở đây 100% = 400px
+     còn vw thì nó chạy full ra ko liên quan gì đến thẻ cha*/
+}
+.wrap{
+    width: 400px;/*px là đv cố định, mọi thứ đều quy ra px*/
+}

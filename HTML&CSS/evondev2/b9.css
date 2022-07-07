@@ -1,0 +1,30 @@
+
+
+.margin{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(123, 218, 255);
+    margin-bottom: 70px;
+    /*3 giá trị top 10px, right = left = 20px, bottom = 30px*/
+    /* margin: 10px 20px 30px; */
+    /* margin-left: auto;nam ben phai */
+    /* margin-right: auto;co ca 2 thi nam giua, chi co tac dung voi the block */
+
+}
+.margin2{
+    margin-top: 50px;
+    /*margin collapse khi phần tử phía trên có margin bottom và phần tử phía dưới 
+    có margin-top thì giá trị nào có số lớn hơn thì lấy giá trị đó*/
+}
+.padding{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    /* margin: 0 auto; */
+    overflow: hidden;
+    font-size: 10px;
+    padding: 10px;
+}
+.margin1{
+    margin-top: -50px;
+}

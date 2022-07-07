@@ -1,0 +1,28 @@
+
+    /*font size 100% = 16px
+    1em = 1rem * 16px*/
+.em{
+    width: 10em;
+    height: 10em;
+    background-color: rgb(235, 118, 118);
+    font-size: 32px;
+    /*1 em lúc này là 32px*/
+}
+/* đơn vị em là đv sẽ phụ thuộc vào thuộc tính 
+font-size của chính nó hoặc phần tử chứa nó*/
+html{
+    font-size: 62.5%;
+    /*1rem = 10px*/
+}
+.rem{
+
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(196, 35, 35);
+}
+/*đv rem ko bị thay đổi, đv sẽ phụ thuộc vào thuộc tính
+font-size của thẻ html mà thôi*/
+/* công thức quy đổi ra rem
+100% = 16px
+?% = 10px;
+10*100/16 = 62.5%--> xét thẻ html*/

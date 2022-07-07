@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 8,9 đặt tên class với BEM</title>
+</head>
+<body>
+    <!-- BEM Block Element Modifier-->
+    <!--
+        Laptop : block
+        keyboard, mouse, touchpad, screen : element(thành phần)
+        modifier(tùy biến) áp dụng cho block:
+            Laptop big, laptop small
+        modifier(tùy biến) áp dụng cho element
+            Small keyboard, small screen,...
+      Block__Element--Modifier
+      Block--modifier
+      Block__Element
+      
+      Laptop__Keyboard, Laptop__Screen
+
+      laptop--small,laptop--cheap
+
+      laptop__Touchpad--smooth(trơn tru), laptop__screen_Scale(Tỉ lệ)
+      danh mục : category
+      laptop-keyboard (như này cho dễ)
+    -->
+
+    <!-- bài 9-->
+    <!-- block: flash-message
+        Element:image, title, description(mo ta)(desc),button
+        Modifier: primary, secondary
+
+
+        Block 1 & 2:
+        flash-message
+        flash-message__image,flash-message__title,flash-message__desc,flash-message__button
+
+        Block 1: flash-message__title--primary, flash-message__button--primary
+        Block 2: flash-message__title--secondary,...
+
+        modifier thường đứng chung vs elment hoặc block, tức là nó đứng chung
+
+
+
+    -->
+    <h3 class="flash-message__title flash-message__title">Right on</h3>
+    <button class="flash-message__button flash-message__button--secondary"></button>
+
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+
+@media screen and (max-width:1024px ) {
+    /* .nav-list{
+        display: none;
+    }
+    .nbc-search-box{
+        display: none;
+    }
+    /* .nbc-main{
+        display: none;
+    }
+    .nbc-img {
+        width: 330px;
+        height: 135px;
+    } */
+    /*.nav-bar-center{
+        display: none;
+        
+    } */
+    .nav-bar-center{
+        display: grid;
+        grid-template-areas:
+        'nbc1 nbc2'
+        'nbc3 nbc3';
+    }
+    .nbc-search {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0px 20px 10px 20px;
+    }
+
+}
+
+@media  (max-width: 1200px){
+    .blog{
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+@media (max-width: 1200px){
+    .shopping_list{
+        height: auto;
+    }
+    .spl-content{
+        height: auto;
+        display: grid;
+        grid-template-areas:
+            'item1  item2'
+            'item3   item3' 
+            ;
+    }
+    .spl-item{
+        width: 90%;
+    }
+    .spl-item img{
+        width: 110%;
+        height: 300px;
+    }
+    .spl-item .item3 img{
+        width: 90% !important;
+    }
+    .spl-text {
+        transform: translate(5%, -10%);
+    }
+
+    /* best seller*/
+    .bs-product{
+        height: auto;
+        display: grid;
+        grid-template-columns: 400px 400px;
+        margin: 10px;
+        justify-content:center;
+        align-items: center;
+        justify-items: center;
+
+
+    }
+    .bs-product-item {
+        height: auto;
+    }
+    .bs-product-item img{
+        margin: 0 auto;
+        width: 100%;
+    }
+    /*advertise*/
+    .advertise{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /*footer*/
+    .footer-row{
+        margin: 0 auto;
+    }
+    .footer-row{
+        display:;
+    }
+    .footer-row-store{
+        display: none;
+        margin: 0 auto;
+    }.footer-row-main{
+        display: grid;
+        grid-template-columns: repeat(2,280px);
+        grid-template-rows: repeat(4,200px);
+        column-gap: 50px;
+        justify-content:center;
+        align-items: center;
+        justify-items: center;
+    }
+    .footer-r2c34{
+        display: none;
+    }
+    .footer-r3c25{
+        display: none;
+    }
+} 

@@ -1,0 +1,16 @@
+:root{
+    --text-color: violet; /*đặt tên biến dấu đgl global là đc sử dụng ở mọi nơi --*/
+}
+
+h1 {
+    --my-color: green;/*cục bộ*/
+    color: var(----my-color); /*hàm*/
+
+}
+h2 {
+    color: var(--text-color);
+}
+h3{
+    color: var(--text-color);
+}
+

@@ -1,0 +1,52 @@
+
+/* position: static, absolute, fixed, sticky
+thường sd  */
+.wrapper{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(243, 152, 178);
+    color: #ffff;
+    margin-top: 10px;
+}
+.wrapper p{
+    margin: 0px;
+}
+.boxed{
+    width: 100px;
+    height: 100px;
+    /* margin: 0 auto;center cho thẻ block, thẻ inline thì sử dụng display: inline-block */
+    background-color: rgb(23, 101, 160);
+    position: relative;/* sd t l r btm*/
+    /* bây h muốn đẩy khối xuống mà ko dịch chuyển chữ, đè lên. Thường dùng relative làm center*/
+    top: 50px;
+    left: 50%;/*đẩy khối qua 50%
+    /* margin-left: -50px;khi biết rõ độ rộng thì thêm cái này vào cho nó vào giữa */
+    transform: translateX(-50%);/*traslateX là độ rộng của khối này*/
+
+
+/*áp dụng cho inline-block center with inline block
+    display: inline-block;
+    position: relative;
+    left: 50%;
+     transform: translateX(-50%);
+    */
+}
+/* absolute thường chạy theo phần tử cha có thể là relative,fixed,absolute nhưng ko phải static hay sticky
+
+chạy theo thằng chứa nó là wrapper 2*/
+.wrapper2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(243, 152, 178);
+    color: #ffff;
+    margin-top: 10px;
+}
+.boxed2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;/* cái khối cuối nó đè lên 2 khối còn lại và chữ bị đè lên. Cái khối đó ko chiếm diện tích và chữ chạy lên trên vì khối ko chiếm diện tích, phải xét giá trị mới tách 3 khối ra vì hiện tại đang là auto*/
+}
+.boxed21{
+    
+}

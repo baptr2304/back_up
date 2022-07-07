@@ -1,0 +1,20 @@
+.hi{
+    width: 500px;
+    height: 500px;
+    background-color: blanchedalmond;
+    /* border: 1px solid blueviolet; */
+    /*border: border-width border-style border-color*/
+    border-width: 5px;
+    font-size: 150px;
+    border-style: dashed;
+    /* border-color: blueviolet; viet chung cho 4 canh */
+    /* border-top: 2px solid black;tuong tu cho left right bottom */
+    border-radius: 50%;
+    /* border-radius: 10px 20px 10px 50px; */
+    /* border-top-left-radius: 50px; */
+    /*tu thu tiep*/
+    border-color: blue;
+    outline:10px solid red;
+
+}
+

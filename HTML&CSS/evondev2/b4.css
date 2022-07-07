@@ -1,0 +1,22 @@
+.background{
+
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: rgb(226, 139, 139);
+    /* go nhanh h500, w500
+    go bgc */
+
+   /* overflow: hidden;/*tran text ra ngoai thi an di*/
+
+   /*overflow-y: auto;/*xuat hien scroll dọc*/
+
+   /* text dài thì nó chạy theo bọc đủ theo chieu cao,chieu rong*/
+   /* min-height: 100px; */
+   max-height: 200px;/*muốn nó cao 200 thôi thì áp dụng cách trên*/
+   max-width: 50%;/*chạy ra 1 nửa*/
+
+
+
+
+
+}
